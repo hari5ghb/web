@@ -1,0 +1,89 @@
+
+*{
+    margin: 0px;
+    padding:0px;
+   
+}
+body{
+    background-image:url('web3.webp');
+    background-size: cover;
+    height:2000px;
+    width:1700px;
+}
+.container{
+    position:fixed;
+}
+hr.bar{
+    border-top: 1px solid #9381ff;
+    width:1700px;
+  }
+
+
+
+    
+    .imgc{
+        width:800px;
+        height: 162px;
+        position: absolute;
+        top:300px;
+        left:300px;
+        background-color: rgba(72, 148, 236, 0.142);
+        box-shadow: inset -5px -5px  rgba(255, 255, 255, 0.089);
+       
+    }
+    
+    #cont{
+        font-size:69px;
+        color:#9381ff;
+    border-color:linear-gradient(#9381ff #9381ff to black); 
+    border-style: solid;}
+
+    #cont:hover{
+        color:#9381ff;
+        background-color: rgba(72, 148, 236, 0.142);
+        box-shadow: inset -5px -5px  rgba(255, 255, 255, 0.089);
+    }
+
+.container>a{
+    text-decoration: none;
+    color: #9381ff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 30px 60px ;
+    position:relative;
+    display: inline-block;
+    left:500px;
+  
+
+}
+
+.container>a:hover{
+    background-color: #9381ff;
+    color: rgb(0, 0, 0);
+  transition: 0.6s;
+  border-radius: 7%;
+}
+footer {
+    background-color: #9381ff;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    top: 1900px;
+    width: 1700px;
+  }
+  
+  .imgc:hover{
+    transition: 0.6s;
+    animation:imgc .9s infinite alternate;
+  }
+@-webkit-keyframes imgc {
+    from {
+      box-shadow: 0 0 8px #9381ff;
+    }
+    
+    to {
+      box-shadow: 0 0 20px #9381ff;
+    }
+  }
+  
